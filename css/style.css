@@ -10,12 +10,8 @@ body {
 .container {
     margin-top: 30px;
 }
-.row {
-}
 .col-8 {
     margin-top: 15px;
-}
-.col-4 {
 }
 .col-3.nav_logo {
     background: url(../images/Logo.jpg) no-repeat center center;
@@ -24,14 +20,10 @@ body {
     height: 50px;
     border-radius: 50%
 }
-.col-9 {
-}
 .nav_text {
     display: flex;
     align-items: center;
     justify-content: right;
-}
-.img_size {
 }
 .my_photo {
     background: url(../images/My_photo.jpg) no-repeat center center;
@@ -42,9 +34,45 @@ body {
 .title_photo {
     text-align: center;
 }
+.button_js {
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+#myButton {
+    border: none;
+    border-radius: 10px;
+    width: 150px;
+    height: 50px;
+    background-color: #f3ef09;
+    color: #ffffff;
+    font-weight: bold;
+}
+#myButton:hover {
+    background-color: #b6b30a;
+    transition: 0.7ms;
+}
+#demo img {
+    margin-top: 20px;
+    width: 60%;
+}
 .footer {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-top: 165px;
+    margin-top: 70px;
 }
+
+/*.row {
+}
+
+.col-4 {
+}
+
+.col-9 {
+}
+
+.img_size {
+}*/

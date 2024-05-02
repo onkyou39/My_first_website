@@ -49,6 +49,7 @@ body {
     background-color: #f3ef09;
     color: #ffffff;
     font-weight: bold;
+    margin-top: 5px;
 }
 #myButton:hover {
     background-color: #b6b30a;
@@ -64,7 +65,15 @@ body {
     justify-content: center;
     margin-top: 70px;
 }
+.col-12.index {
+    text-align: center;
+}
 
+.row.form__reg {
+    margin-bottom: 5px;
+    margin-left: 2px;
+    width: 300px;
+}
 /*.row {
 }
 
